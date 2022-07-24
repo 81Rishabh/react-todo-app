@@ -107,7 +107,7 @@ function App() {
     <div className="App">
       <Toaster />
 
-      <h1 className="heading">Todo App</h1>
+      <h1 className="heading">Albums App</h1>
       <p style={{textAlign : 'center'}}>
        {loading ? 'Loading.....' : ''}
       </p>
