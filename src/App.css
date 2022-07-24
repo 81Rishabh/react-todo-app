@@ -1,38 +1,75 @@
-.App {
+
+.heading {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.albums-group-list , .add-album-container {
+  width : 50%;
+  display: block;
+  margin: auto;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.albums-group-list li {
+  list-style: none;
+  font-size: 1;
+  font-family: Arial;
+  background: white;
+  padding: 1.5rem 1rem;
+  border-left: 2px solid #000;
+  margin : 5px 0;
+  cursor: pointer;
+  display:flex;
+  justify-content:space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.albums-group-list p {
+  width : 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.albums-group-list li:hover {
+   transform : translateX(5px);
+   transition: transform .4s ease-in-out;
+}
+
+.album-actions {
+  width : 30%;
+}
+
+.album-actions button,
+.add-album-container button {
+    background: whitesmoke;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 2px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.album-actions button:nth-child(2) {
+  background: rgb(227, 16, 16);
+  color: #fff;
+}
+
+.add-album-container input{
+   width : 90%;
+   height : 40px;
+   border : 1px solid whitesmoke;
+   box-shadow: 0px 0px 4px #efefef;
+   border-bottom : 2px solid #000;
+   padding-left: 10px;
+}
+
+.add-album-container button{
+  background : rgb(0, 0, 0);
+  width : 50px;
+  height : 40px;
+  color: #fff;
+}
+
+.add-album-container form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
