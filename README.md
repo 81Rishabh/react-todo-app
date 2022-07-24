@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-#### live - https://62dd1182705cf93b3a5b0305--tubular-bubblegum-a5ca48.netlify.app/
+#### live - https://tubular-bubblegum-a5ca48.netlify.app/
 
 # Clone this repository - git clone https://github.com/81Rishabh/react-todo-app.git
 
