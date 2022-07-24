@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+### live - https://62dd1182705cf93b3a5b0305--tubular-bubblegum-a5ca48.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
