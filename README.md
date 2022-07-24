@@ -7,7 +7,7 @@
 ### Functionaliy added in this app.
     GET request to - https://jsonplaceholder.typicode.com/albums
     
-    These requests are dummy request i won't be able to store / update / delete any kind of data on that server
+    These requests are dummy request it won't be able to store / update / delete any kind of data on the server side
     
     POST request to - https://jsonplaceholder.typicode.com/albums
     PUT Request to - https://jsonplaceholder.typicode.com/albums/1
